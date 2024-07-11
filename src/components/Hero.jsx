@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
         <div
           id="cta"
-          className="flex flex-col items-center opacity-0 translate-y-20"
+          className="flex flex-col items-center opacity-0 translate-y-20 py-10"
         >
           <a href="#highlights" className="btn">
             Buy

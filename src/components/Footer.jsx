@@ -24,12 +24,13 @@ const Footer = () => {
             Copright @ 2024 Apple Inc. Remade by Ankush Karmakar. All rights
             reserved.
           </p>
-          <div className="flex">
+          <div className="bg-neutral-700 my-5 h-[1px] w-full inline md:hidden" />
+          <div className="flex md:flex-row flex-col flex-wrap">
             {footerLinks.map((link, i) => (
-              <p key={link} className="font-semibold text-gray text-xs">
+              <p key={link} className="font-semibold text-gray text-xs ">
                 {link}{" "}
                 {i !== footerLinks.length - 1 && (
-                  <span className="mx-2"> | </span>
+                  <span className="mx-2 hidden md:inline"> | </span>
                 )}
               </p>
             ))}
