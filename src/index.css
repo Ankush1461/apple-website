@@ -18,6 +18,35 @@ body {
   user-select: none;
 }
 
+/* Version 1.0.1 */
+@media only screen and (max-width: 768px) {
+  /* Make the website container flexible */
+  .container {
+    width: 100%;
+    overflow-x: hidden; /* Add this to prevent horizontal overflow */
+  }
+
+  /* Adjust the layout for mobile devices */
+  .header {
+    flex-direction: column;
+  }
+
+  .hero {
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .feature {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* Version 1.0.1 */
+
 canvas {
   touch-action: none;
 }

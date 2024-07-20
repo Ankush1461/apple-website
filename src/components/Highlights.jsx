@@ -15,7 +15,8 @@ const Highlights = () => {
       className="w-screen overflow-hidden h-full common-padding bg-zinc"
     >
       <div className="screen-max-width">
-        <div className="mb-12 w-full items-end flex justify-between">
+        {/* Version 1.0.1 */}
+        <div className="mb-12 w-full items-end flex md:flex-row flex-col justify-between">
           <h1 id="title" className="section-heading">
             Get the highlights.
           </h1>
@@ -29,6 +30,7 @@ const Highlights = () => {
             </p>
           </div>
         </div>
+        {/* Version 1.0.1 */}
         <VideoCarousel />
       </div>
     </section>
